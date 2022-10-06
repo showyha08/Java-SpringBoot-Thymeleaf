@@ -4,6 +4,14 @@
     "org.springframework.core.annotation.SynthesizedAnnotation"
   ],
   [
+    "org.springframework.web.bind.annotation.RequestMapping",
+    "org.springframework.core.annotation.SynthesizedAnnotation"
+  ],
+  [
+    "org.springframework.stereotype.Component",
+    "org.springframework.core.annotation.SynthesizedAnnotation"
+  ],
+  [
     "org.springframework.boot.autoconfigure.AutoConfigureBefore",
     "org.springframework.core.annotation.SynthesizedAnnotation"
   ],
@@ -16,15 +24,7 @@
     "org.springframework.core.annotation.SynthesizedAnnotation"
   ],
   [
-    "org.springframework.stereotype.Component",
-    "org.springframework.core.annotation.SynthesizedAnnotation"
-  ],
-  [
     "org.springframework.boot.context.properties.ConfigurationProperties",
-    "org.springframework.core.annotation.SynthesizedAnnotation"
-  ],
-  [
-    "org.springframework.web.bind.annotation.RequestMapping",
     "org.springframework.core.annotation.SynthesizedAnnotation"
   ],
   [

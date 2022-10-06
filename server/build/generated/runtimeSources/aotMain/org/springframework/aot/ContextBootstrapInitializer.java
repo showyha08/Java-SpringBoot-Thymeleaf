@@ -1,6 +1,7 @@
 package org.springframework.aot;
 
 import com.example.demo.DemoApplication;
+import com.example.demo.controllers.IndexController;
 import java.lang.Override;
 import javax.servlet.MultipartConfigElement;
 import org.springframework.aot.beans.factory.BeanDefinitionRegistrar;
@@ -108,6 +109,8 @@ public class ContextBootstrapInitializer implements ApplicationContextInitialize
 
     BeanDefinitionRegistrar.of("com.example.demo.DemoApplication", DemoApplication.class)
         .instanceSupplier(DemoApplication::new).register(beanFactory);
+    BeanDefinitionRegistrar.of("indexController", IndexController.class)
+        .instanceSupplier(IndexController::new).register(beanFactory);
     org.springframework.boot.autoconfigure.ContextBootstrapInitializer.registerAutoConfigurationPackages_BasePackages(beanFactory);
     BeanDefinitionRegistrar.of("org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration", PropertyPlaceholderAutoConfiguration.class)
         .instanceSupplier(PropertyPlaceholderAutoConfiguration::new).register(beanFactory);

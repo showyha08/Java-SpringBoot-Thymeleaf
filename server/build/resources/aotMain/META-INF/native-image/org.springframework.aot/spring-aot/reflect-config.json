@@ -120,6 +120,16 @@
     ]
   },
   {
+    "name": "com.example.demo.controllers.IndexController",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
     "name": "com.fasterxml.jackson.annotation.JsonAnyGetter",
     "allPublicMethods": true
   },
