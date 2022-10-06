@@ -116,10 +116,6 @@
       {
         "name": "<init>",
         "parameterTypes": []
-      },
-      {
-        "name": "home",
-        "parameterTypes": []
       }
     ]
   },
@@ -2611,7 +2607,6 @@
   },
   {
     "name": "org.springframework.web.bind.annotation.ResponseBody",
-    "allDeclaredMethods": true,
     "allPublicMethods": true
   },
   {
@@ -2620,7 +2615,6 @@
   },
   {
     "name": "org.springframework.web.bind.annotation.RestController",
-    "allDeclaredMethods": true,
     "allPublicMethods": true
   },
   {
