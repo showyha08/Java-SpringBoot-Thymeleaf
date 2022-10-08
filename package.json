@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "lint:stylesheet": "stylelint --fix **/*.css"
+  }
+}
