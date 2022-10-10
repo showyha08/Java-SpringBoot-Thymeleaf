@@ -20,10 +20,33 @@ h1 {
   font-size: 2rem;
 }
 
+p {
+  font-size: 0.75rem;
+}
+
 body {
   font-family: sans-serif;
 }
 
 a {
   color: #f30;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  display: inline;
+}
+
+.post .main-container {
+  padding: 0 4%;
+}
+
+@media (min-width: 768px) {
+  .post .main-container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 }
