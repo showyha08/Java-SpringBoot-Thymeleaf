@@ -39,12 +39,58 @@ img {
   display: inline;
 }
 
+/**
+* ***********
+* メインコンテナ
+* ***********
+*
+* [index.html] メインコンテナ
+*/
 .post .main-container {
   padding: 0 4%;
 }
 
 @media (min-width: 768px) {
   .post .main-container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+/**
+* ***********
+* ページ下部
+* ***********
+*
+* ページ下部コンテナ
+*/
+
+.bottom-container {
+  padding: 0 4%;
+}
+
+@media (min-width: 768px) {
+  .bottom-container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1040px;
+  }
+}
+
+/**
+* ***********
+* フッター
+* ***********
+*
+* フッターコンテナ
+*/
+.footer-container {
+  padding: 0 4%;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
     max-width: 1040px;
     margin: 0 auto;
     padding: 0 20px;
