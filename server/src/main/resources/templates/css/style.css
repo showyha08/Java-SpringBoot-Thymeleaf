@@ -55,6 +55,8 @@ img {
     max-width: 1040px;
     margin: 0 auto;
     padding: 80px 20px 0;
+    background: url("../img/post-bg.svg") repeat-x;
+    background-position: 0 10px;
   }
 }
 
@@ -65,6 +67,10 @@ img {
 *
 * ページ下部コンテナ
 */
+
+.page-bottom {
+  background: url(../img/bottom-bg.svg);
+}
 
 .bottom-container {
   padding: 60px 4% 0;
@@ -85,6 +91,11 @@ img {
 *
 * フッターコンテナ
 */
+
+.page-footer {
+  background: #000;
+}
+
 .footer-container {
   padding: 60px 4%;
 }
@@ -113,7 +124,7 @@ img {
 }
 
 .page-header {
-  background: url (../img/header-topline.svg) repeat-x;
+  background: url("../img/header-topline.svg") repeat-x;
   border-bottom: 1px solid #d8d8d8;
 }
 
@@ -125,6 +136,7 @@ img {
 @media (min-width: 768px) {
   .breadcrumb {
     display: block;
+    background: #efefef;
   }
 
   .bc-container {
