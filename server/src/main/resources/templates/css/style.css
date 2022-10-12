@@ -112,6 +112,11 @@ img {
   }
 }
 
+.page-header {
+  background: url (../img/header-topline.svg) repeat-x;
+  border-bottom: 1px solid #d8d8d8;
+}
+
 /* パンくず */
 .breadcrumb {
   display: none;
