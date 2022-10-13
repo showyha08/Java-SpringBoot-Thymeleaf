@@ -1,5 +1,22 @@
 @charset "utf-8";
 
+/* ページ全体のCSS設定 */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400; /* Noto Sans JPのレギュラーウェイト設定 */
+}
+/* 太字タグのフォントウェイト設定 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+strong {
+  font-weight: 700;
+}
+
 html *,
 ::before,
 ::after {
@@ -16,16 +33,8 @@ html {
   }
 }
 
-h1 {
-  font-size: 2rem;
-}
-
 p {
   font-size: 0.75rem;
-}
-
-body {
-  font-family: sans-serif;
 }
 
 a {
@@ -186,6 +195,11 @@ img {
   margin: 30px 0;
   line-height: 1.9;
   text-align: justify;
+}
+
+/* p mark */
+.post-contents mark {
+  background: linear-gradient(transparent 50%, #ffff7c 50%);
 }
 
 @media (min-width: 768px) {
