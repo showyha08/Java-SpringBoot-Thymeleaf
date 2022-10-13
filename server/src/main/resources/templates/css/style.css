@@ -69,7 +69,7 @@ img {
 */
 
 .page-bottom {
-  background: url(../img/bottom-bg.svg);
+  background: url("../img/bottom-bg.svg");
 }
 
 .bottom-container {
@@ -143,5 +143,69 @@ img {
     margin: 0 auto;
     padding: 12px 20px;
     max-width: 100%;
+  }
+}
+
+/**
+* ***********
+* ポストヘッダー
+* ***********
+**/
+.post-header {
+  margin-bottom: 60px;
+}
+
+.post-header h1 {
+  margin: 0 0 20px;
+  font-size: 1.875rem;
+  line-height: 1.5;
+}
+/**
+* **************
+* ポストコンテンツ
+*/
+.post-contents {
+  margin: 0 0 60px;
+}
+
+.post-contents > *:first-child {
+  margin-top: 0;
+}
+
+/* h2 */
+.post-contents h2 {
+  margin: 60px 0 30px;
+  padding: 1rem 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  font-size: 1.25rem;
+}
+
+/* p */
+.post-contents p {
+  margin: 30px 0;
+  line-height: 1.9;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .post-contents {
+    max-width: 600px;
+    margin: 0 auto 60px;
+  }
+}
+
+/**
+* ------
+* ポストフッター
+*/
+.post-footer {
+  margin: 0 0 60px;
+}
+
+@media (min-width: 768px) {
+  .post-footer {
+    max-width: 600px;
+    margin: 0 auto 60px;
   }
 }
