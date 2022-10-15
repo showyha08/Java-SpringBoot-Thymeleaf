@@ -293,8 +293,11 @@ img {
 
 /* テキストの先頭にアイコン */
 .post-info {
+  margin-bottom: 3px;
+  padding-bottom: 15px;
   font-size: 0.75rem;
   text-align: right;
+  background: url("../img/post-line.svg") bottom repeat-x;
 }
 
 .post-info span {
