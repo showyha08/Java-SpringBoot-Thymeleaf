@@ -269,6 +269,42 @@ img {
   }
 }
 
+.post-footer h2 {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 30px;
+  background: #000;
+  border-radius: 10px 10px 0 0;
+  font-family: "Croissant One", cursive;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.profile {
+  display: flex;
+  padding: 1rem;
+  border: 1px solid #000;
+}
+
+.pr-photo {
+  flex: 0 0 100px;
+  margin-right: 1rem;
+}
+
+.pr-photo img {
+  border-radius: 50%;
+}
+
+.pr-text {
+  flex: 1 1 auto;
+}
+
+.pr-text p {
+  margin: 0;
+  line-height: 1.9;
+}
+
 /* キャプション付きの画像 */
 .photo-caption {
   margin: 30px 0;
