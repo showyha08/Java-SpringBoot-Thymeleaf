@@ -178,6 +178,26 @@ img {
   font-size: 1.875rem;
   line-height: 1.5;
 }
+
+/* タグ */
+.post-tag {
+  margin-bottom: 5px;
+  font-size: 0.75rem;
+  line-height: 2;
+}
+
+.post-tag span {
+  margin: 0 3px 0 0;
+  padding: 2px 10px;
+  background: #73cbd6;
+  border-radius: 100px;
+}
+
+.post-tag span a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /**
 * **************
 * ポストコンテンツ
