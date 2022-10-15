@@ -214,6 +214,18 @@ img {
   margin-top: 0;
 }
 
+/* ボックスを囲む */
+.info-box {
+  margin: 30px;
+  padding: 2rem;
+  border: 4px solid #b8e5ea;
+  border-top: 3px double #28b0b4;
+}
+
+.info-box p {
+  margin: 0;
+}
+
 /* h2 */
 .post-contents h2 {
   margin: 60px 0 30px;
