@@ -146,6 +146,10 @@ img {
   border-bottom: 1px solid #d8d8d8;
 }
 
+.header-img {
+  border-radius: 30px 100px 270px 130px/150px 90px 170px 110px;
+}
+
 /* パンくず */
 .breadcrumb {
   display: none;
@@ -285,4 +289,19 @@ img {
 
 .float-box p {
   margin: 0;
+}
+
+/* テキストの先頭にアイコン */
+.post-info {
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.post-info span {
+  margin: 0 10px 0 0;
+}
+
+.post-info i {
+  padding-right: 5px;
+  color: #73cbd6;
 }
