@@ -150,6 +150,27 @@ img {
   border-radius: 30px 100px 270px 130px/150px 90px 170px 110px;
 }
 
+/* ヘッダーロゴ */
+.header-logo {
+  margin: 0;
+  padding-left: 15px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.header-logo img {
+  width: 100px;
+}
+
+@media (min-width: 768px) {
+  .header-logo {
+    padding: 0;
+  }
+  .header-logo img {
+    width: 100px;
+  }
+}
+
 /* ヘッダーモジュール */
 /* ヘッダーロゴとモバイルナビボタン */
 .sitetitle {
