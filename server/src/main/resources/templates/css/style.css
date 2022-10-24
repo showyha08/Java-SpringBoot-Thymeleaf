@@ -186,6 +186,13 @@ img {
   }
 }
 
+.navbtn {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/nav-mobile-open.svg");
+}
+
 @media (min-width: 768px) {
   .navbtn {
     display: none;
