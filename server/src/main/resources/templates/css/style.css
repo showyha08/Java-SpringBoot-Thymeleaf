@@ -191,6 +191,12 @@ img {
   width: 60px;
   height: 60px;
   background-image: url("../img/nav-mobile-open.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.navbtn.close {
+  background-image: url("../img/nav-mobile-close.svg");
 }
 
 @media (min-width: 768px) {
