@@ -171,6 +171,51 @@ img {
   }
 }
 
+/* ヘッダーナビゲーション */
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-nav.collapse {
+  display: none;
+}
+
+.header-nav li a {
+  display: block;
+  padding: 20px 30px;
+  border-top: 1px solid #d8d8d8;
+  background: #efefef;
+  color: #000;
+  text-decoration: none;
+}
+
+.header-nav li a:hover {
+  background: #b8e5ea;
+}
+
+@media (min-width: 768px) {
+  /* PC向けエリアウト */
+  .header-nav {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .header-nav li a {
+    padding: 6px 20px 2px 20px;
+    border-top: none;
+    border-bottom: 4px solid #73cdb6;
+    background: none;
+  }
+  .header-nav li a:hover {
+    border-bottom: 4px solid #73cdb6;
+    background: none;
+  }
+}
+
 /* ヘッダーモジュール */
 /* ヘッダーロゴとモバイルナビボタン */
 .sitetitle {
@@ -211,15 +256,56 @@ img {
 }
 
 @media (min-width: 768px) {
+  /* PCだけ適用 */
   .breadcrumb {
     display: block;
     background: #efefef;
   }
 
-  .bc-container {
-    margin: 0 auto;
-    padding: 12px 20px;
-    max-width: 100%;
+  /* パンくずモジュール */
+  .bc-nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .bc-nav li {
+    font-size: 0.75rem;
+    color: #747474;
+  }
+
+  .bc-nav li::after {
+    padding: 0 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+  }
+
+  .bc-nav li:list-child::after {
+    content: "";
+  }
+
+  .bc-nav li a {
+    color: #747474;
+  }
+
+  .bc-nav li a:hover {
+    opacity: 0.8;
+  }
+
+  @media (min-width: 768px) {
+    .breadcrumb {
+      display: block;
+      background: #efefef;
+    }
+
+    .bc-container {
+      margin: 0 auto;
+      padding: 12px 20px;
+      max-width: 100%;
+    }
   }
 }
 
