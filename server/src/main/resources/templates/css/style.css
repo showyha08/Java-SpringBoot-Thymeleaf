@@ -283,7 +283,7 @@ img {
     content: "\f054";
   }
 
-  .bc-nav li:list-child::after {
+  .bc-nav li:last-child::after {
     content: "";
   }
 
@@ -543,4 +543,40 @@ img {
 
 .talk p {
   margin: 0;
+}
+
+/* 通知 */
+.notice::before {
+  content: "重要：";
+}
+
+/**
+* *** *** **
+* ページ下部
+* *** *** **
+*/
+
+/* ページ下部モジュール */
+.banner {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.banner div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.banner a:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    flex-direction: row;
+  }
+  .banner div {
+    margin: 0 10px;
+  }
 }
