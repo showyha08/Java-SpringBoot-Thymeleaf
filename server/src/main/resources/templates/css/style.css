@@ -580,3 +580,37 @@ img {
     margin: 0 10px;
   }
 }
+
+.followus {
+  margin: 0 0 15px 0;
+  font-family: "Croissant One", cursive;
+  font-weight: 400;
+  font-size: 1.875rem;
+  text-align: center;
+}
+
+.sns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.sns div {
+  margin: 0 10px;
+}
+
+.sns div a {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background: #73cbd6;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 70px;
+  text-align: center;
+  color: #fff;
+}
+
+.sns div a:hover {
+  opacity: 0.8;
+}
