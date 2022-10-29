@@ -711,6 +711,11 @@ img {
   overflow: 0.8;
 }
 
+/**
+* ホームモジュール
+*
+/
+
 /* ホーム ヒーローコンテナ */
 .hero-container {
   position: relative;
@@ -764,4 +769,17 @@ img {
     margin: 0 auto;
     padding: 60px 20px;
   }
+}
+
+/* キャッチフレーズ */
+.home-lead {
+  min-width: 600px;
+  margin: 0 auto -60px auto;
+  text-align: center;
+}
+
+.home-lead p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 2;
 }
