@@ -720,8 +720,8 @@ img {
 .hero-logo {
   width: 260px;
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 50%;
+  left: 50%;
   transform: translate(-130px, -53px);
 }
 
