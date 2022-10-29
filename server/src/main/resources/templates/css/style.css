@@ -783,3 +783,18 @@ img {
   font-size: 1.25rem;
   line-height: 2;
 }
+
+/* テキストと背景を組み合わせ */
+.home .main-container h2 {
+  display: grid;
+  place-items: center;
+  margin: 0 auto -30px auto;
+  width: 130px;
+  height: 130px;
+  background: url("../img/home-titleshape.svg") no-repeat;
+  background-size: 130px 130px;
+  color: #ffffff;
+  font-family: "Croissant One";
+  font-weight: 400;
+  font-size: 20px;
+}
