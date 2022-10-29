@@ -710,3 +710,58 @@ img {
 .gotop a:hover {
   overflow: 0.8;
 }
+
+/* ホーム ヒーローコンテナ */
+.hero-container {
+  position: relative;
+}
+
+/* ヒーロー画像 */
+.hero-logo {
+  width: 260px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-130px, -53px);
+}
+
+@media (min-width: 768px) {
+  .hero-logo {
+    width: 400px;
+    transform: translate(-200px, -82px);
+  }
+}
+
+/* ホーム メインコンテナ */
+.home .page-main {
+  background: url("../img/home-bg/svg");
+}
+
+.home .main-container {
+  padding: 60px 4%;
+}
+
+@media (min-width: 768px) {
+  .home .main-container {
+    min-width: 1040px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+}
+
+/* ホーム ニュースコンテナ */
+.news {
+  background: #efefef;
+}
+
+.news-container {
+  padding: 60px 4%;
+}
+
+@media (min-width: 768px) {
+  .news-container {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+}
