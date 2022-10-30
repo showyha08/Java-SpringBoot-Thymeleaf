@@ -889,3 +889,61 @@ img {
   color: #73cbd6;
   content: "\f3c5";
 }
+
+/* メディアオブジェクト */
+.home-popular {
+  margin: 0 0 60px 0;
+  border-top: 1px solid #000;
+}
+
+.home-popular a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.home-popular a:hover {
+  overflow: 0.5;
+}
+
+.popular-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.popular-photo {
+  flex: 0 0 30%;
+  margin-right: 15px;
+  position: relative;
+}
+
+.popular-text {
+  font: 1px 1px auto;
+
+  .popular-text h3 {
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  @media (min-width: 768px) {
+    .popular-text h3 {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.popular-text p {
+  margin: 0 0 10px 0;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .popular-text p {
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+}
