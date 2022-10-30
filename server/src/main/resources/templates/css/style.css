@@ -38,10 +38,6 @@ p {
   font-size: 0.75rem;
 }
 
-a {
-  color: #f30;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -809,13 +805,87 @@ img {
   row-gap: 30px;
 }
 
-.latest-item {
-  border: 1px solid #d8d8d8;
-}
-
 @media (min-width: 768px) {
   .home-latest {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
   }
+}
+
+/* カードの中身 */
+.latest-item {
+  border: 1px solid #d8d8d8;
+  background: #fff;
+}
+
+@media (min-width: 769px) {
+  .latest-item {
+    border: none;
+    background: none;
+  }
+}
+.latest-image img {
+  margin: 0 0 10px 0;
+}
+
+.latest-image img:hover {
+  overflow: 0.5;
+}
+
+.latest-text {
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .latest-text {
+    padding: 0;
+  }
+}
+
+.latest-text h3 {
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.latest-text h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.latest-text h3 a:hover {
+  opacity: 0.5;
+}
+
+/* home共通ダグ */
+.home-tag {
+  margin-bottom: 1rem;
+}
+
+.home-tag span {
+  margin: 0 3px 3px 0;
+  padding: 2px 10px;
+  border: 1px solid #73cdb6;
+  border-radius: 100px;
+  font-size: 0.75em;
+}
+
+.home-tag span a {
+  color: #73cbd5;
+  text-decoration: none;
+}
+
+/* ホーム 共通の場所情報 */
+.home-info {
+  display: flex;
+  font-size: 0.75em;
+}
+
+.home-info span::before {
+  padding-right: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #73cbd6;
+  content: "\f3c5";
 }
