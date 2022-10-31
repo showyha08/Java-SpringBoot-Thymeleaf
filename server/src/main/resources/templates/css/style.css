@@ -947,3 +947,64 @@ img {
     line-height: 1.5;
   }
 }
+
+/* テーブル形のリスト */
+.news-container h2 {
+  margin: 0 0 30px 0;
+  font-family: "Croissant One", cursive;
+  font-weight: 400;
+  font-size: 1.875em;
+}
+
+@media (min-width: 768px) {
+  .news-container h2 {
+    min-width: 700px;
+    margin: 0 auto 30px auto;
+  }
+}
+
+.home-news {
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .home-news {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+}
+
+.home-news dl {
+  display: flex;
+  margin: 0;
+  padding: 20px 0;
+  border-top: 1px solid #d8d8d8;
+}
+
+.home-news dl:last-child {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.home-news dt {
+  margin: 0 20px 0 0;
+  font-size: 0.875em;
+  line-height: 1.5;
+}
+
+.home-news dd {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.home-nesd dd a {
+  color: #73cdb6;
+  text-decoration: none;
+}
+
+.home-news dd a:hover {
+  opacity: 0.5;
+}
