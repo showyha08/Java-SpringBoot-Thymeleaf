@@ -1030,3 +1030,48 @@ img {
     grid-gap: 40px;
   }
 }
+
+/**
+* ******
+* サイドバーありの記事
+* ***/
+
+/* カードとバッジ */
+.side-popular {
+  margin-bottom: 60px;
+  border: 1px solid #000;
+}
+
+.side-popular a {
+  display: block;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.side-popular a:hover {
+  opacity: 0.5;
+}
+
+.side-popular h2 {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  background: url("../img/side-titleshape.svg") no-repeat;
+  color: #fff;
+  font-family: "Croissant One", cursive;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.side-popular p {
+  margin: 0;
+  padding: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
