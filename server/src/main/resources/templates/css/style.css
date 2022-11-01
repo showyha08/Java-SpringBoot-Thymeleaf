@@ -1008,3 +1008,25 @@ img {
 .home-news dd a:hover {
   opacity: 0.5;
 }
+
+.sidebar-post .main-container {
+  padding: 80px 4% 0 4%;
+  background: url("../img/post-bg.svg") repeat-x;
+  background-position: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .sidebar-post .main-container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 80px 20px 0 20px;
+  }
+}
+/* 2カラムレイアウトのコントロール */
+@media (min-width: 768px) {
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 290px;
+    grid-gap: 40px;
+  }
+}
