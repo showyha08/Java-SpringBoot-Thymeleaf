@@ -1174,3 +1174,62 @@ img {
 .buy button:hover {
   opacity: 0.5;
 }
+
+/**
+* ******
+* form.html フォーム
+* ***/
+
+/* フォーム キャッチフレーズ */
+.apply .campaign-container {
+  margin: 0 auto;
+  padding: 60px 4%;
+  max-width: 1040px;
+  background-image: url("../img/form-title-bg1.svg"),
+    url("../img/form-title-bg2.svg");
+  background-position: left top 10px, right top 10px;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .apply .campaign-container {
+    padding: 60px 20px;
+  }
+}
+
+/* フォーム - フォームコンテナ */
+.apply .form-container {
+  margin: 0 auto;
+  padding: 0 4% 30px 4%;
+  max-width: 640px;
+}
+
+@media (min-width: 768px) {
+  .apply .form-container {
+    padding: 0 20px 30px 20px;
+  }
+}
+
+/**
+* ******
+* フォームページ - モジュール
+* ***/
+
+/* 見出しとテキスト */
+.apply-title {
+  margin: 0 0 60px 0;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.apply-title span {
+  font-size: 1.875rem;
+  font-family: "Croissant One" cursive;
+  font-weight: 400;
+}
+
+.apply-lead {
+  margin: 0;
+  line-height: 1.9;
+}
