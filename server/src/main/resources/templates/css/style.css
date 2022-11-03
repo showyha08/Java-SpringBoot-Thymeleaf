@@ -1265,7 +1265,16 @@ select {
   padding: 4px 2rem 4px 4px;
   border-radius: 4px;
   background: url("../img/caret-down.svg") no-repeat;
-  background-position: 0 0;
+  background-position: right 6px center;
   background-size: 12px 12px;
   font-size: 16px;
+}
+
+/* メッセージ(テキストエリア) */
+textarea {
+  width: 100%;
+  height: 6rem;
+  padding: 10px;
+  border: 1px solid #747474;
+  line-height: 1.5;
 }
